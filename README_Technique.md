@@ -418,7 +418,7 @@ npm run dev
 open http://localhost:3000/test/footer
 ```
 
-> **⚠️** Ces routes de test sont uniquement destinées au développement local. Elles doivent être exclues du build de production (via `.gitignore` ou middleware de redirection selon `NODE_ENV`).
+> **⚠️** Ces routes de test sont uniquement destinées au développement local. Elles doivent être bloquées en production (via middleware de redirection selon `NODE_ENV`).
 
 ### Tests manuels
 
